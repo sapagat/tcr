@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TEST_OUTPUT=/tmp/tcr_ouput.log
+TEST_OUTPUT=tmp/tcr_ouput.log
 
 test () {
   rspec > $TEST_OUTPUT
