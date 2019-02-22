@@ -11,6 +11,7 @@ commit () {
   echo "Green!!!"
   git add -A
   git commit -m "$(date +%s)"
+  exit 0
 }
 
 revert () {
