@@ -18,6 +18,7 @@ revert () {
   echo "Revert =("
   git reset --hard
   git clean -fd
+  exit 1
 }
 
 test && commit || revert
