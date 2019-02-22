@@ -3,7 +3,7 @@
 TEST_OUTPUT=tmp/tcr_ouput.log
 
 test () {
-  rspec > $TEST_OUTPUT
+  rspec >> $TEST_OUTPUT
 }
 
 commit () {
